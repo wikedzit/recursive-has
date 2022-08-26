@@ -19,7 +19,7 @@ class CategoryController extends Controller
 
         if ($request->method() == "GET") {
             return view('categories.add',[
-                'category_id' => $request->get('category_id') with 
+                'category_id' => $request->get('category_id')
             ]);
         }
 
